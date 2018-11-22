@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detile/detile",
+    "pages/cart/cart"
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#fc5a5a",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/home.png",
+        "selectedIconPath": "img/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/menu.png",
+        "selectedIconPath": "img/menu1.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "img/cart.png",
+        "selectedIconPath": "img/cart1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/user.png",
+        "selectedIconPath": "img/user1.png",
+        "text": "我的酒仙"
+      }
+    ]
+  }
+}

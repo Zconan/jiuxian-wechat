@@ -1,0 +1,23 @@
+<!-- 首页 -->
+<view class="home">
+  <!-- 轮播图 -->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{indicatorActiveColor}}" circular="{{circular}}">
+    <block wx:for="{{imgUrls}}" wx:key="*this">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 商品列表 -->
+  <view class="goodslist">
+    <text class="h4">爆款推荐</text>
+    <view class="ul">
+      <view class="li" wx:for="{{goodslist}}" wx:key="*this">
+        <image src="{{item.commonProductInfo.imgPath}}"></image>
+        <text class="p">{{item.commonProductInfo.pname}}</text>
+        <text class="span">{{item.commonProductInfo.actPrice}}</text>
+        <text class="del" wx:if="{{item.commonProductInfo.actPrice!==item.commonProductInfo.jxPrice}}">{{item.commonProductInfo.jxPrice}}</text>
+      </view>
+    </view>
+  </view>
+</view>

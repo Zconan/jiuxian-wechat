@@ -1,0 +1,115 @@
+/* 字体图标 */
+
+@font-face {
+  font-family: 'iconfont';
+  src: url(data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAAU8AA0AAAAAClgAAATmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGh4GVgCCYhEICodohi8LFAABNgIkAxoEIAWFCAdgG6QIUZRPTobsZ0FOxptKiFKTxUVkbeXAm1YQmuM7pggtSontdUc8PG8X77lvZtdfUkU5ItpUYJ1UAFtW8/N52fsz9S8AJYUzUzg5VdJtpVOlU3evANIcCP3pLU4CKQk0KMMk8DDFuuH//3tVM8XGvJRYQGIcoPtf1rax8VkG5sSyeUygUADn6FhLqKciPaVizTvgzkS8wsATIeDjZwcJAD7r/pDmHjvQREcgCZmqkCMhcnGnEummtA/cAXx9/MkyBEhKGW7usj2zd3H/JX1HRhe0TQyLlCBEBju6+9ibbIF9D49pQFNVkv+SaXr118bvKP7zS8I+3xUp/K+QKN8sVw2IoBJlgjaRkPx7AvBLoigkUANtgdYgpoJ4HpAD/lAoCZkkb3ccjHupIXlh4WZXeb6YCv/h52VJ2dGr5HKG2lZo6WxigF7OevYOfbftPnNPF4lwZwhq2fqhbIgdXBQSuv9lZg3j1z7g1QkDCzJimbzLQpmBo0fH5LKGluSSxmQH66LxyO53yMBj8vHj+7Yto1WWPP0EXV3FXXwc8VhNizn/KDy7P61NVo94a9riBFszjslHTyMvP4lFldou4vVPkUYfL+uv0RhH7GT52coIJvrMrec+2PDWJ9mGcdR33ivExOD9iAn2VQ9gJvAtUwAmuec2dkXb7oOkxuh7pVFAKrNnNBhyV23qCys7gD73j86j+3GWUJwiGnsFY9ytAJFur2L04eSywY/68hPpNPDp0wx/d6xU8oPBu5L8d8O/Mvw2yC8s/GboX5Dmvm1lJ8amvT2t3Y+tl53XNBQC6uplU6e6200MD3kg0U1CxMDcxUt1Z0KDkmh3VcSzp+cND1opfjreUdtuqWihJjG2pmZ4HNZX1FBn/NuVtVTzNDEP/wD44iFI7Ck8mNbqF5zrm6lIkRck/Cc/KAXKUNONiMPXrfXrKoyBxlVo29y/ua1aUZv/jtMqTOX/W/feVPXSNdSmyocnKsMiRb2oKFndsgKNPebDEAzFmF1e7V00v84WVHOJlZbyH386Zff4zO5T0UQX+jAEQ+NNojRELS1F1f3BfWkBe3dD+sTVpwTo24IgRhDoh6yGhnKe3cogOgA06ZA1AoHWGOhdroTlqOAQCu9XZA9sdp+B326CNZ1e3lMbTn6bNZGNZcyKUVBr3moZsyxxum0VMkRVbfH98s7rQMUnfx+uph+xpQypElvrFxn86XKU2Oj5gQAQCBZtzorTWjn/LYBzBsvDKd7KXmUBqEogGOBISjcxzRBBIM+l5chFe/glV7NmBKFmP16QUFdHAaCtGyDUgbENoWoVJBWHIVN1AzvnPw0lDe9DWdX3UDcsPDc3tItBmchrGAoACK15QtLSZsi0Vs7O+d1Q0tEalLV2BHVrvDpLw8AoBiEzUQgZuAjZ1GWqVtXzZClRjOzBJUT9Jg6ZTcnH/stDKieEbwYrEHKUK5SBAp/qyzZ59pT6GgQKR16mOgumzMEuv3MLU/Os7LndixGofl6Fo0IOS1xcJHUkSoki6nyLoIRChXZAXWk4zUfIgptMwRVRMqdi71gud8+5AHkYmizPjZ+NDgDsK5+WcmQmliNLDpjKqtMB2zYHmZmse0xTaCXq2P5rCClSZJFHKcpRqW2nThw9u/yw5ivc0urfkKDhP7I3X+Q4a66kMTwFxJ7TAAA=) format('woff2'),
+         url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAd0AA0AAAAAClgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAHWAAAABoAAAAchd2qCUdERUYAAAc4AAAAHgAAAB4AKQAPT1MvMgAAAaAAAABCAAAAVjxwSoFjbWFwAAAB/AAAAFUAAAFizbS5Pmdhc3AAAAcwAAAACAAAAAj//wADZ2x5ZgAAAmgAAAMzAAAD6Gdsjz5oZWFkAAABMAAAAC8AAAA2E0LG+2hoZWEAAAFgAAAAHQAAACQHyAOFaG10eAAAAeQAAAAYAAAAGgzAAUhsb2NhAAACVAAAABQAAAAUAmIDsG1heHAAAAGAAAAAHwAAACABGAB1bmFtZQAABZwAAAFJAAACiCnmEVVwb3N0AAAG6AAAAEgAAABg3WQL4HjaY2BkYGAA4phYlrB4fpuvDNwsDCBwQ+ZgA4L+v4/5FbMDkMvBwAQSBQAKUQolAHjaY2BkYGBu+N/AEMPCAALMrxgYGVABCwBYVANWAAAAeNpjYGRgYOBkyGRgZQABJiDmAkIGhv9gPgMAE/EBjgB42mNgZGFgnMDAysDA1Ml0hoGBoR9CM75mMGLkAIoysDIzYAUBaa4pDA7PmF70Mzf8b2CIYW5gaAAKM4LkAOWsDG4AAHjaY2GAABYwZhRhcAAyQhlMGLQBBpoBFnjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHAxMDyjPkZz7M1z+tf9P//z8DwjAnBk2KU/CkZJdEhXgk1AQ4Y2RjgQoxMQIKJAU0Bw7AHAMJIFGwAAAAAAAAAAAAAAAAmAKoA2AESAWQB9HjadVJNaFxVFL7n3s6becnL+5s3b2Y6Zv7eH3lTJ/P+NSHD1E0RQmk1KSiYJjtpLI1JwJQ2mMaFtqG4EISgpLhtFkJ1ISi2umg3peDCQheFbu3KjeAmbzyvo7jq5XLPOfd+nHu+8x0CoA2f0j+ZSVRCcrYDjh0mEPu6ludB1zj6ky6ln1NZgjXpRF1Mv4czYsMACT5kypQEq9KkK6c/pN9K7iTJkcHwF/YrG5AxUiIheZssEGKJoOl+HNqO1/rfTVpt22FOFzrQhTCehTo0oFiHcgt/5gyrS+PE6kNSjB3baGWQoOWX65BnIuRzsPyKaSamWYO7NdOMLas2OPrbCHNxgyrjUxOqOjFlhrlGTJUxWsjCtDmhUFmEO4JCfTrG8UePRVUVqWsdFwUa5AIzPX0SspSJCf/Z5rQJ298JMqg1FbrmnfSaIGX+xyDXitAEaRyaqpDPriZlt5w+M7rQJLiAkOHP7Dn2oYw9bTtIMUIuyG50IgXg4C8+n+7PnaSfbixd8HqrS+ufURj0033uDQ4u9vdObV6nMD83Nw/0+uapvX76BZflZmSRLLJDekjGMbtBSHHUMexnGL/M32FErVbVoxfnS3x6WDWruFMysvCvxT8pCYe/sYdsmlSJ94KRjco5SMbXkVIwosTluUwcDPRynOAjQtqcBAilpCKHMzduU/bVlrfkOO/5H33N6O0br0fyo/NXGLu1OxNFM7u3GLty/tWFlqa1FqblKLj85OrWAW3V6y16sHX1yeUgkplFt5dX76+HcRyu319d3qbtRrHYaJNjpDO8x35nHZzCd8kKeR/r9GchMizO6HkoQM9TcIh6XuCXsTAsFIeu5/l6Sel5GpdHiBPGiR0lI41KdZgEvEegiEOK04oSzgISLiHAqkOi2FyuC3lFj+Fe4bXBDmyIMi8IPARu58HutQcdN4QsfusDWtYA2n8cfPO8WdKDzom9c6ws76gVgIqamTc37KMCf6lQWGOnC2uFwqWS+wkDzLTIC5XNm5Te3KwIfHrIC0AvnjX6VWDHvvyRsbv7tNJvQ3Tu+PwFXdaqqpupmdPfmdtfSRi4LFlBmz5mCfkHt2u2GgB42n2QPU4DMRCFn/MHJBJCIKhdUQDa/JQpEyn0CKWjSDbekGjXXnmdSDkBLRUHoOUYHIAbINFyCl6WSZMia+3o85uZ57EBnOMbCv/fJe6EFY7xKFzBETLhKvUX4Rr5XbiOFj6FG9R/hJu4VQPhFi7UGx1U7YS7m9JtywpnGAhXcIon4Sr1lXCN/CpcxxU+hBvUv4SbGONXuIVrZakM4WEwQWCcQWOKDeMCMRwskjIG1qE59GYSzExPN3oRO5s4GyjvV2KXAx5oOeeAKe09t2a+Sif+YMuB1JhuHgVLtimNLiJ0KBtfLJzV3ahzsP2e7ba02L9rgTXH7FENbNT8Pdsz0khsDK+QkjXyMrekElOPaGus8btnKdbzXgiJTrzL9IjHmjR1OvduaeLA4ufyjBx9tLmSPfeoHD5jWQh5v91OxCCKXYY/k9hxGQAAAHjaY2BigAAuMMnIgA44waJMjEyMzIwsjKyMbIzsnIlFRfnlOalpJSzJiUUlHMUZ+aXJiXnpLLmpeaWcMJ4hS3ZqWikAdGcQIgAAAAH//wACAAEAAAAMAAAAFgAAAAIAAQADAAgAAQAEAAAAAgAAAAB42mNgYGBkAIKrS9Q5QPQNmYMNMBoAPV8GFAAA) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e6ac";
+}
+
+.icon-cart:before {
+  content: "\e603";
+}
+
+.icon-arrowleft:before {
+  content: "\e602";
+}
+
+.icon-shoucang:before {
+  content: "\e60c";
+}
+
+.icon-kefu:before {
+  content: "\e88f";
+}
+
+.icon-shoucang1:before {
+  content: "\e77f";
+}
+
+page {
+  color: #252525;
+  font-size: 12px;
+}
+
+/* 头部样式 */
+
+.detile .header {
+  overflow: hidden;
+  background: #de4943;
+}
+
+.detile .header text:first-child, .detile .header text:last-child {
+  float: left;
+  width: 10%;
+}
+
+.detile .header text:nth-child(2) {
+  float: left;
+  width: 80%;
+  font-size: 16px;
+}
+
+.detile .header text {
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.detile .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+
+.detile .footer .ul {
+  display: flex;
+  width: 188px;
+}
+
+.detile .footer .ul .li {
+  flex: 1;
+  height: 44px;
+}
+
+.detile .footer .ul .li text {
+  display: block;
+  text-align: center;
+  line-height: 20px;
+}
+
+.detile .footer .btn {
+  flex: 1;
+  display: flex;
+}
+
+.detile .footer .btn text {
+  flex: 1;
+  line-height: 44px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.detile .footer .btn text:first-child {
+  background: #fc5a5a;
+}
+
+.detile .footer .btn text:last-child {
+  background: #3c3f51;
+}

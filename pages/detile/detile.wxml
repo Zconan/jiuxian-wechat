@@ -1,0 +1,19 @@
+<!-- 商品详情页 -->
+<view class="detile">
+  <!-- 头部 -->
+  <view class="header">
+    <text wx:for="{{headers}}" wx:key="*this" class="{{item.icon}}" data-index="{{index}}" bindtap="jumpTo">{{item.title}}</text>
+  </view>
+  <!-- 底部 -->
+  <view class="footer">
+    <view class="ul">
+      <view class="li" wx:for="{{tabs}}" wx:key="*this">
+        <text class="{{item.icon}}"></text>
+        <text>{{item.title}}</text>
+      </view>
+    </view>
+    <view class="btn">
+      <text wx:for="{{btns}}" wx:key="*this">{{item}}</text>
+    </view>
+  </view>
+</view>
