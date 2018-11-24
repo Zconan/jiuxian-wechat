@@ -45,7 +45,7 @@ page {
   font-size: 12px;
 }
 
-/* 头部样式 */
+/* header样式 */
 
 .detile .header {
   overflow: hidden;
@@ -68,6 +68,17 @@ page {
   text-align: center;
   color: #fff;
 }
+
+/* section样式 */
+
+.detile .section .img image {
+  width: 320px;
+  height: 320px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* footer样式 */
 
 .detile .footer {
   position: fixed;

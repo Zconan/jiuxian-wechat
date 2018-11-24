@@ -4,6 +4,12 @@
   <view class="header">
     <text wx:for="{{headers}}" wx:key="*this" class="{{item.icon}}" data-index="{{index}}" bindtap="jumpTo">{{item.title}}</text>
   </view>
+  <!-- 具体信息 -->
+  <view class="section">
+    <view class="img">
+      <image src="{{good.imgPath}}"></image>
+    </view>
+  </view>
   <!-- 底部 -->
   <view class="footer">
     <view class="ul">

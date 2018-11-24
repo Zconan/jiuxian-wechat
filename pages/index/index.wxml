@@ -12,7 +12,7 @@
   <view class="goodslist">
     <text class="h4">爆款推荐</text>
     <view class="ul">
-      <view class="li" wx:for="{{goodslist}}" wx:key="*this">
+      <view class="li" wx:for="{{goodslist}}" wx:key="*this" data-index="{{index}}" data-id="{{item.commonProductInfo.pid}}" bindtap="jumpToDetile">
         <image src="{{item.commonProductInfo.imgPath}}"></image>
         <text class="p">{{item.commonProductInfo.pname}}</text>
         <text class="span">{{item.commonProductInfo.actPrice}}</text>

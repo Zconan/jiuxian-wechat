@@ -63,5 +63,38 @@ Page({
       title: '酒仙',
       path: '/pages/index'
     }
+  },
+  //跳转商品详情页
+  jumpToDetile(e) {
+    //获取自定义index、id，传参跳转
+    let index = e.currentTarget.dataset.index;
+    let id = e.currentTarget.dataset.id;
+    let page;
+    switch (true) {
+      case (index >= 0 && index <= 9):
+        page = 1;
+        break;
+      case (index >= 10 && index <= 19):
+        page = 2;
+        break;
+      case (index >= 20 && index <= 29):
+        page = 3;
+        break;
+      case (index >= 30 && index <= 39):
+        page = 4;
+        break;
+      case (index >= 40 && index <= 49):
+        page = 5;
+        break;
+      case (index >= 50 && index <= 59):
+        page = 6;
+        break;
+      case (index >= 60 && index <= 67):
+        page = 7;
+        break;
+    }
+    wx.navigateTo({
+      url: '/pages/detile/detile?page=' + page + '&id=' + id
+    });
   }
 });
